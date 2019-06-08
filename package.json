@@ -1,0 +1,26 @@
+{
+  "name": "cryptomancy-extended-oblivion",
+  "version": "1.0.0",
+  "description": "tools for more complex behaviour involving oblivious transfer",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint --config .jshintrc --exclude-path .jshintignore .",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "cryptomancy",
+    "oblivious-transfer",
+    "cryptography"
+  ],
+  "author": "ansuz",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "cryptomancy-format": "^1.0.2",
+    "cryptomancy-shard": "^1.0.0",
+    "cryptomancy-source": "^1.0.3"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/ansuz/cryptomancy-extended-oblivion"
+  }
+}
